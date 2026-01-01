@@ -10,7 +10,7 @@ body {
     color: #333;
 }
 
-/* Intro */
+
 .intro {
     background-color: #6c63ff;
     color: white;
@@ -23,7 +23,7 @@ body {
     color: #ffdd57;
 }
 
-/* Sections */
+
 section {
     padding: 40px 20px;
     max-width: 900px;
@@ -36,13 +36,13 @@ h2 {
     color: #6c63ff;
 }
 
-/* About */
+
 .about p {
     text-align: center;
     font-size: 15px;
 }
 
-/* Projects */
+
 .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -61,7 +61,7 @@ h2 {
     transform: scale(1.05);
 }
 
-/* Contact */
+
 .contact {
     background-color: #e8ecff;
     border-radius: 10px;
@@ -72,7 +72,7 @@ h2 {
     margin: 6px 0;
 }
 
-/* Footer */
+
 footer {
     background-color: #6c63ff;
     color: white;
@@ -81,7 +81,7 @@ footer {
     margin-top: 30px;
 }
 
-/* Animation */
+
 @keyframes slideDown {
     from {
         opacity: 0;
@@ -92,3 +92,4 @@ footer {
         transform: translateY(0);
     }
 }
+
